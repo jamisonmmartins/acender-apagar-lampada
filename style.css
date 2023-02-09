@@ -8,6 +8,7 @@
 
 body {
     font-weight: 400;
+    padding-bottom: 2rem;
 }
 
 header {
@@ -78,4 +79,21 @@ section h3 {
 
 section p {
     text-align: justify;
+    line-height: 1.5rem;
+}
+
+@media (width < 550px) {
+
+    body {
+        max-width: 280px;
+        margin: auto;
+    }
+
+    header {
+        margin-top: 2rem;
+    }
+
+    section {
+        margin-top: 3rem;
+    }
 }
